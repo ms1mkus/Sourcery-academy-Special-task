@@ -10,7 +10,7 @@ public class SpecialTask {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter .txt file name " +
-        "(or press enter to read default .txt file for testing): ");
+        "(or press enter to read default .txt file for testing):  ");
 
         ArrayList<String> output = readFile(scan.nextLine());
 
